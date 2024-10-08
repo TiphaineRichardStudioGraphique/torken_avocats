@@ -270,7 +270,10 @@ body {
 
     .info {
         width: 40%;
+        max-width: 302px;
+        margin: inherit;
         margin-right: 5%;
+        flex-shrink: inherit;
     }
 
     .team {
@@ -282,6 +285,10 @@ body {
 
     .triangle-container {
         justify-content: flex-end;
+    }
+
+    .arrow {
+        left: inherit;
     }
 }
 
@@ -300,6 +307,7 @@ body {
         flex-direction: row;
         justify-content: center;
         width: 100%;
+        padding: 0;
     }
 
     .logo {
